@@ -51,7 +51,7 @@
             <li class="description-item">
                 <div class="description-item-icon">
                     <svg class="description-icon" width="64" height="64">
-                        <use href="./images/icons.svg#icon-antenna-1"></use>
+                        <use href="./images/icons.svg#icon-astronaut-1"></use>
                     </svg>
                 </div>
                 <h3 class="description-title">Strategy</h3>
@@ -359,10 +359,39 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-bottom">
+                <p class="footer-form-text">Subscribe</p>
+                <form class="footer-form">
+                  <label class="footer-form-label">
+                    <input
+                      type="email"
+                      name="user-email"
+                      class="footer-input"
+                      placeholder="E-mail"
+                      aria-label="email input"
+                    />
+                  </label>
+                  <button type="submit" class="footer-form-btn">
+                    Subscribe
+                    <svg class="footer-form-btn-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-Frame-3"></use>
+                    </svg>
+                  </button>
+                </form>
+              </div>
             </div>
+
         </footer>
-        
-        <form class="modal-form">
+
+        <div class="backdrop"> 
+            <div class="container modal">
+                <button type="button" class="modal-btn">
+                    <svg width="8" height="8" class="modal-btn-icon">
+                      <use href="./images/icons-modal.svg#icon-close"></use>
+                    </svg>
+                  </button>
+                  <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form is-open">
             <div class="modal-field">
               <label for="user-name" class="modal-label">Name</label>
               <div class="modal-input-wrap">
@@ -435,7 +464,7 @@
               <label for="user-privacy" class="modal-check-title">
                 <span class="modal-check-span"
                   ><svg class="modal-check-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-chek"></use>
+                    <use href="./images/icons.svg#icon-close"></use>
                   </svg>
                 </span>
                 I accept the terms and conditions of the

@@ -139,7 +139,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #FFF;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
-    url(../images/background-image.jpg);
+    url(../images/people-office\ 1.jpg);
     background-size: cover;
     max-width: 1440px;
     background-position: center;
@@ -292,6 +292,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 8px;
 }
 .team-soc-list {
     display: flex;
@@ -484,6 +485,74 @@ background-color: #31D0AA;
 .footer-soc-icon{
     fill: #F4F4FD;
 }
+.footer-form-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    justify-content:center;
+    margin-bottom: 16px;
+    margin-left: 80px;  
+
+      
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;    
+    color: #FFFFFF;    
+    margin-left: 80px;
+}
+
+.footer-input::placeholder {
+    color: #FFF;    
+    font-size: 12px;
+    font-style: normal;    
+    line-height: 2.0;
+    letter-spacing: 0.04em;
+}
+
+.footer-form-btn { 
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: #FFF;    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;    
+    padding: 8px 24px;        
+    border-radius: 4px;
+    background: #4D5AE5;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.footer-form-btn-icon {
+    margin-left: 16px;
+    fill: #FFFFFF;    
+}
+
 
 .modal {
     width: 408px;
@@ -529,7 +598,7 @@ background-color: #31D0AA;
     fill: #FFFFFF;
 }
 
-.modal-title {
+.modal-text {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -652,10 +721,22 @@ background-color: #31D0AA;
 }
 
 .send-btn {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-bottom: 0;
-    margin-top: 24px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: auto;
 }
 
 .is-open {
